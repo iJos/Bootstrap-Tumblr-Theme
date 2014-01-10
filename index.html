@@ -1,25 +1,24 @@
 <!DOCTYPE html>
 <html>
-    <head>
+	<head>
 		<title>{Title}{block:PostTitle} | {PostTitle}{/block:PostTitle}</title>
-		
+
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		
+
 		<link rel="shortcut icon" href="{Favicon}">
-		
-        <link rel="alternate" type="application/rss+xml" href="{RSS}">
-        
+
+		<link rel="alternate" type="application/rss+xml" href="{RSS}">
+
 		{block:Description}
-            <meta name="description" content="{MetaDescription}" />
-        {/block:Description}
-        
+		<meta name="description" content="{MetaDescription}" />
+		{/block:Description}
 
 		<!-- Bootstrap -->
 		<link href="http://www.ijos.es/webs/personales/FrikiLeaks%20Tema%20v3/css/bootstrap.min.css" rel="stylesheet" media="screen">
-		
+
 		<!-- Font Awesome -->
 		<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
-		
+
 		<!-- CUSTOM STYLES -->
 		<link href="http://www.ijos.es/webs/personales/FrikiLeaks%20Tema%20v3/css/style-light.css" rel="stylesheet" media="screen">
 
@@ -27,48 +26,40 @@
 		<script src="//code.jquery.com/jquery.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
 		<script src="http://www.ijos.es/webs/personales/FrikiLeaks%20Tema%20v3/js/bootstrap.min.js"></script>
-	
+
 		<script src="http://www.ijos.es/webs/personales/FrikiLeaks%20Tema%20v3/js/scripts.js"></script>
 		<script src="http://www.ijos.es/webs/personales/FrikiLeaks%20Tema%20v3/js/dropdown.js"></script>
-		
-    <!-- SOCIAL GET FOLLOWERS SCRIPT -->
-        <script type="text/javascript" src="https://dl.dropboxusercontent.com/u/19888447/SFC/SocialFollowerCounter.js"></script>
-        
-        
-    
-    <!-- AVISO COOKIES -->
-    
-    <script type="text/javascript" src="http://static.tumblr.com/ovj2qlw/lAOmub82g/jquery.cookie.js"></script>
-    
-    
-    <!-- jQuery Cookie -->
-    
-    <!-- jCookie -->
-    <link href='http://static.tumblr.com/ovj2qlw/VQ2mub80p/jcookie.css' rel='stylesheet' type='text/css'>
-    
-    <script type="text/javascript" src="http://static.tumblr.com/ovj2qlw/tk6mub7xw/jcookie.js"></script>
-    <script type="text/javascript" src="http://static.tumblr.com/ovj2qlw/t1fmub882/script.js"></script>
-    
-    <!-- AVISO COOKIES --> 
-        
-		
-		
-	<!-- VARIABLES -->
-	
-	<meta name="if:Show Avatar" content="1" />
-	<meta name="if:Show About Me" content="1" />
-	<meta name="if:Show Desc" content="1" />
-	<meta name="if:Show Social Buttons" content="1" />
-	<meta name="if:Show Twitter And Facebook Badges" content="1" />
-	
-	<meta name="text:Tumblr Url" content=""/>
-	<meta name="text:Disqus Shortname" content="" />	
-		
 
+		<!-- SOCIAL GET FOLLOWERS SCRIPT -->
+		<script type="text/javascript" src="https://dl.dropboxusercontent.com/u/19888447/SFC/SocialFollowerCounter.js"></script>
+
+		<!-- AVISO COOKIES -->
+
+		<script type="text/javascript" src="http://static.tumblr.com/ovj2qlw/lAOmub82g/jquery.cookie.js"></script>
+
+		<!-- jQuery Cookie -->
+
+		<!-- jCookie -->
+		<link href='http://static.tumblr.com/ovj2qlw/VQ2mub80p/jcookie.css' rel='stylesheet' type='text/css'>
+
+		<script type="text/javascript" src="http://static.tumblr.com/ovj2qlw/tk6mub7xw/jcookie.js"></script>
+		<script type="text/javascript" src="http://static.tumblr.com/ovj2qlw/t1fmub882/script.js"></script>
+
+		<!-- AVISO COOKIES -->
+
+		<!-- VARIABLES -->
+
+		<meta name="if:Show Avatar" content="1" />
+		<meta name="if:Show About Me" content="1" />
+		<meta name="if:Show Desc" content="1" />
+		<meta name="if:Show Social Buttons" content="1" />
+		<meta name="if:Show Twitter And Facebook Badges" content="1" />
+
+		<meta name="text:Tumblr Url" content=""/>
+		<meta name="text:Disqus Shortname" content="" />
 
 	</head>
 	<body>
-	
 
 		<!-- Facebook Comments SDK -->
 		<div id="fb-root"></div>
@@ -96,8 +87,7 @@
 					<a class="navbar-brand" href="{BlogURL}">{Title}</a>
 				</div>
 				<div class="collapse navbar-collapse">
-					<ul class="nav navbar-nav">
-					</ul>
+					<ul class="nav navbar-nav"></ul>
 				</div><!-- /.nav-collapse -->
 			</div><!-- /.container -->
 		</div><!-- /.navbar -->
@@ -148,18 +138,18 @@
 						</button>
 
 						<div class="post-share collapse" id="{PostID}-share">
-						<!-- AddThis Button BEGIN -->
-                            <div class="addthis_toolbox addthis_default_style addthis_32x32_style" addthis:title="{Title}" addthis:url="{Permalink}">
-                            <a class="addthis_button_preferred_1"></a>
-                            <a class="addthis_button_preferred_2"></a>
-                            <a class="addthis_button_preferred_3"></a>
-                            <a class="addthis_button_preferred_4"></a>
-                            <a class="addthis_button_compact"></a>
-                            <a class="addthis_counter addthis_bubble_style"></a>
-                            </div>
-                            <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=xa-52c969a372bc11f8"></script>
-                            <!-- AddThis Button END -->
-                            
+							<!-- AddThis Button BEGIN -->
+							<div class="addthis_toolbox addthis_default_style addthis_32x32_style" addthis:title="{Title}" addthis:url="{Permalink}">
+								<a class="addthis_button_preferred_1"></a>
+								<a class="addthis_button_preferred_2"></a>
+								<a class="addthis_button_preferred_3"></a>
+								<a class="addthis_button_preferred_4"></a>
+								<a class="addthis_button_compact"></a>
+								<a class="addthis_counter addthis_bubble_style"></a>
+							</div>
+							<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=xa-52c969a372bc11f8"></script>
+							<!-- AddThis Button END -->
+
 						</div>
 
 						<div class="post-caption collapse" id="{PostID}-caption">
@@ -260,17 +250,17 @@
 
 						<div class="post-share collapse" id="{PostID}-share">
 							<!-- AddThis Button BEGIN -->
-                            <div class="addthis_toolbox addthis_default_style addthis_32x32_style" addthis:title="{Title}" addthis:url="{Permalink}">
-                            <a class="addthis_button_preferred_1"></a>
-                            <a class="addthis_button_preferred_2"></a>
-                            <a class="addthis_button_preferred_3"></a>
-                            <a class="addthis_button_preferred_4"></a>
-                            <a class="addthis_button_compact"></a>
-                            <a class="addthis_counter addthis_bubble_style"></a>
-                            </div>
-                            <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=xa-52c969a372bc11f8"></script>
-                            <!-- AddThis Button END -->
-                            
+							<div class="addthis_toolbox addthis_default_style addthis_32x32_style" addthis:title="{Title}" addthis:url="{Permalink}">
+								<a class="addthis_button_preferred_1"></a>
+								<a class="addthis_button_preferred_2"></a>
+								<a class="addthis_button_preferred_3"></a>
+								<a class="addthis_button_preferred_4"></a>
+								<a class="addthis_button_compact"></a>
+								<a class="addthis_counter addthis_bubble_style"></a>
+							</div>
+							<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=xa-52c969a372bc11f8"></script>
+							<!-- AddThis Button END -->
+
 						</div>
 
 						<div class="post-caption collapse" id="{PostID}-caption">
@@ -335,17 +325,17 @@
 
 						<div class="post-share collapse" id="{PostID}-share">
 							<!-- AddThis Button BEGIN -->
-                            <div class="addthis_toolbox addthis_default_style addthis_32x32_style" addthis:title="{Title}" addthis:url="{Permalink}">
-                            <a class="addthis_button_preferred_1"></a>
-                            <a class="addthis_button_preferred_2"></a>
-                            <a class="addthis_button_preferred_3"></a>
-                            <a class="addthis_button_preferred_4"></a>
-                            <a class="addthis_button_compact"></a>
-                            <a class="addthis_counter addthis_bubble_style"></a>
-                            </div>
-                            <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=xa-52c969a372bc11f8"></script>
-                            <!-- AddThis Button END -->
-                            
+							<div class="addthis_toolbox addthis_default_style addthis_32x32_style" addthis:title="{Title}" addthis:url="{Permalink}">
+								<a class="addthis_button_preferred_1"></a>
+								<a class="addthis_button_preferred_2"></a>
+								<a class="addthis_button_preferred_3"></a>
+								<a class="addthis_button_preferred_4"></a>
+								<a class="addthis_button_compact"></a>
+								<a class="addthis_counter addthis_bubble_style"></a>
+							</div>
+							<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=xa-52c969a372bc11f8"></script>
+							<!-- AddThis Button END -->
+
 						</div>
 
 						<div class="post-caption collapse" id="{PostID}-caption">
@@ -465,17 +455,17 @@
 
 						<div class="post-share collapse" id="{PostID}-share">
 							<!-- AddThis Button BEGIN -->
-                            <div class="addthis_toolbox addthis_default_style addthis_32x32_style" addthis:title="{Title}" addthis:url="{Permalink}">
-                            <a class="addthis_button_preferred_1"></a>
-                            <a class="addthis_button_preferred_2"></a>
-                            <a class="addthis_button_preferred_3"></a>
-                            <a class="addthis_button_preferred_4"></a>
-                            <a class="addthis_button_compact"></a>
-                            <a class="addthis_counter addthis_bubble_style"></a>
-                            </div>
-                            <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=xa-52c969a372bc11f8"></script>
-                            <!-- AddThis Button END -->
-                            
+							<div class="addthis_toolbox addthis_default_style addthis_32x32_style" addthis:title="{Title}" addthis:url="{Permalink}">
+								<a class="addthis_button_preferred_1"></a>
+								<a class="addthis_button_preferred_2"></a>
+								<a class="addthis_button_preferred_3"></a>
+								<a class="addthis_button_preferred_4"></a>
+								<a class="addthis_button_compact"></a>
+								<a class="addthis_counter addthis_bubble_style"></a>
+							</div>
+							<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=xa-52c969a372bc11f8"></script>
+							<!-- AddThis Button END -->
+
 						</div>
 
 						<div class="post-caption collapse" id="{PostID}-caption">
@@ -550,17 +540,17 @@
 
 						<div class="post-share collapse" id="{PostID}-share">
 							<!-- AddThis Button BEGIN -->
-                            <div class="addthis_toolbox addthis_default_style addthis_32x32_style" addthis:title="{Title}" addthis:url="{Permalink}">
-                            <a class="addthis_button_preferred_1"></a>
-                            <a class="addthis_button_preferred_2"></a>
-                            <a class="addthis_button_preferred_3"></a>
-                            <a class="addthis_button_preferred_4"></a>
-                            <a class="addthis_button_compact"></a>
-                            <a class="addthis_counter addthis_bubble_style"></a>
-                            </div>
-                            <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=xa-52c969a372bc11f8"></script>
-                            <!-- AddThis Button END -->
-                            
+							<div class="addthis_toolbox addthis_default_style addthis_32x32_style" addthis:title="{Title}" addthis:url="{Permalink}">
+								<a class="addthis_button_preferred_1"></a>
+								<a class="addthis_button_preferred_2"></a>
+								<a class="addthis_button_preferred_3"></a>
+								<a class="addthis_button_preferred_4"></a>
+								<a class="addthis_button_compact"></a>
+								<a class="addthis_counter addthis_bubble_style"></a>
+							</div>
+							<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=xa-52c969a372bc11f8"></script>
+							<!-- AddThis Button END -->
+
 						</div>
 
 						<div class="post-caption collapse" id="{PostID}-caption">
@@ -638,17 +628,17 @@
 
 						<div class="post-share collapse" id="{PostID}-share">
 							<!-- AddThis Button BEGIN -->
-                            <div class="addthis_toolbox addthis_default_style addthis_32x32_style" addthis:title="{Title}" addthis:url="{Permalink}">
-                            <a class="addthis_button_preferred_1"></a>
-                            <a class="addthis_button_preferred_2"></a>
-                            <a class="addthis_button_preferred_3"></a>
-                            <a class="addthis_button_preferred_4"></a>
-                            <a class="addthis_button_compact"></a>
-                            <a class="addthis_counter addthis_bubble_style"></a>
-                            </div>
-                            <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=xa-52c969a372bc11f8"></script>
-                            <!-- AddThis Button END -->
-                            
+							<div class="addthis_toolbox addthis_default_style addthis_32x32_style" addthis:title="{Title}" addthis:url="{Permalink}">
+								<a class="addthis_button_preferred_1"></a>
+								<a class="addthis_button_preferred_2"></a>
+								<a class="addthis_button_preferred_3"></a>
+								<a class="addthis_button_preferred_4"></a>
+								<a class="addthis_button_compact"></a>
+								<a class="addthis_counter addthis_bubble_style"></a>
+							</div>
+							<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=xa-52c969a372bc11f8"></script>
+							<!-- AddThis Button END -->
+
 						</div>
 
 						<div class="post-caption collapse" id="{PostID}-caption">
@@ -731,17 +721,17 @@
 
 						<div class="post-share collapse" id="{PostID}-share">
 							<!-- AddThis Button BEGIN -->
-                            <div class="addthis_toolbox addthis_default_style addthis_32x32_style" addthis:title="{Title}" addthis:url="{Permalink}">
-                            <a class="addthis_button_preferred_1"></a>
-                            <a class="addthis_button_preferred_2"></a>
-                            <a class="addthis_button_preferred_3"></a>
-                            <a class="addthis_button_preferred_4"></a>
-                            <a class="addthis_button_compact"></a>
-                            <a class="addthis_counter addthis_bubble_style"></a>
-                            </div>
-                            <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=xa-52c969a372bc11f8"></script>
-                            <!-- AddThis Button END -->
-                            
+							<div class="addthis_toolbox addthis_default_style addthis_32x32_style" addthis:title="{Title}" addthis:url="{Permalink}">
+								<a class="addthis_button_preferred_1"></a>
+								<a class="addthis_button_preferred_2"></a>
+								<a class="addthis_button_preferred_3"></a>
+								<a class="addthis_button_preferred_4"></a>
+								<a class="addthis_button_compact"></a>
+								<a class="addthis_counter addthis_bubble_style"></a>
+							</div>
+							<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=xa-52c969a372bc11f8"></script>
+							<!-- AddThis Button END -->
+
 						</div>
 
 						<div class="post-caption collapse" id="{PostID}-caption">
@@ -817,17 +807,17 @@
 
 						<div class="post-share collapse" id="{PostID}-share">
 							<!-- AddThis Button BEGIN -->
-                            <div class="addthis_toolbox addthis_default_style addthis_32x32_style" addthis:title="{Title}" addthis:url="{Permalink}">
-                            <a class="addthis_button_preferred_1"></a>
-                            <a class="addthis_button_preferred_2"></a>
-                            <a class="addthis_button_preferred_3"></a>
-                            <a class="addthis_button_preferred_4"></a>
-                            <a class="addthis_button_compact"></a>
-                            <a class="addthis_counter addthis_bubble_style"></a>
-                            </div>
-                            <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=xa-52c969a372bc11f8"></script>
-                            <!-- AddThis Button END -->
-                            
+							<div class="addthis_toolbox addthis_default_style addthis_32x32_style" addthis:title="{Title}" addthis:url="{Permalink}">
+								<a class="addthis_button_preferred_1"></a>
+								<a class="addthis_button_preferred_2"></a>
+								<a class="addthis_button_preferred_3"></a>
+								<a class="addthis_button_preferred_4"></a>
+								<a class="addthis_button_compact"></a>
+								<a class="addthis_counter addthis_bubble_style"></a>
+							</div>
+							<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=xa-52c969a372bc11f8"></script>
+							<!-- AddThis Button END -->
+
 						</div>
 
 						<div class="post-caption collapse" id="{PostID}-caption">
@@ -899,17 +889,17 @@
 
 						<div class="post-share collapse" id="{PostID}-share">
 							<!-- AddThis Button BEGIN -->
-                            <div class="addthis_toolbox addthis_default_style addthis_32x32_style" addthis:title="{Title}" addthis:url="{Permalink}">
-                            <a class="addthis_button_preferred_1"></a>
-                            <a class="addthis_button_preferred_2"></a>
-                            <a class="addthis_button_preferred_3"></a>
-                            <a class="addthis_button_preferred_4"></a>
-                            <a class="addthis_button_compact"></a>
-                            <a class="addthis_counter addthis_bubble_style"></a>
-                            </div>
-                            <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=xa-52c969a372bc11f8"></script>
-                            <!-- AddThis Button END -->
-                            
+							<div class="addthis_toolbox addthis_default_style addthis_32x32_style" addthis:title="{Title}" addthis:url="{Permalink}">
+								<a class="addthis_button_preferred_1"></a>
+								<a class="addthis_button_preferred_2"></a>
+								<a class="addthis_button_preferred_3"></a>
+								<a class="addthis_button_preferred_4"></a>
+								<a class="addthis_button_compact"></a>
+								<a class="addthis_counter addthis_bubble_style"></a>
+							</div>
+							<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=xa-52c969a372bc11f8"></script>
+							<!-- AddThis Button END -->
+
 						</div>
 
 						<div class="post-caption collapse" id="{PostID}-caption">
@@ -937,92 +927,80 @@
 					</div>
 					<!-- End Answer Post -->
 					{/block:Answer}
-					
-					
-					
-					
-    <!-- Permalink -->
-    {block:PermalinkPage} 
-    <div class="col-xs-12 col-sm-12 col-md-12 well">
-    
-    	<ul class="pager">
-    	  	{block:PreviousPost}
-    			<li>
-    			    <a href="{PreviousPost}">{lang:Prev}</a>
-    			</li>
-    		{/block:PreviousPost}
-    		{block:NextPost}
-    	        <li>
-    	            <a href="{NextPost}">{lang:Next}</a>
-    	        </li>
-    	   {/block:NextPost}
-    	</ul>
-    	
-    	
-	{block:IfDisqusShortname}
 
-        <div id="disqus_thread"></div>
-        <script type="text/javascript" src="http://disqus.com/forums/{text:Disqus Shortname}/embed.js"></script>
+					<!-- Permalink -->
+					{block:PermalinkPage}
+					<div class="col-xs-12 col-sm-12 col-md-12 well">
 
-    {/block:IfDisqusShortname}
-    	
-    	
-    	
-    
-    </div>
-    {/block:PermalinkPage} 
-					
-					
-					
+						<ul class="pager">
+							{block:PreviousPost}
+							<li>
+								<a href="{PreviousPost}">{lang:Prev}</a>
+							</li>
+							{/block:PreviousPost}
+							{block:NextPost}
+							<li>
+								<a href="{NextPost}">{lang:Next}</a>
+							</li>
+							{/block:NextPost}
+						</ul>
+
+						{block:IfDisqusShortname}
+
+						<div id="disqus_thread"></div>
+						<script type="text/javascript" src="http://disqus.com/forums/{text:Disqus Shortname}/embed.js"></script>
+
+						{/block:IfDisqusShortname}
+
+					</div>
+					{/block:PermalinkPage}
 
 					{/block:Posts}
 					<!--Blocks End -->
-					
-					
-					
+
 					<!-- Pagination -->
-					
+
 					{block:Pagination}
-					    <div class="col-xs-12 col-sm-12 col-md-12 well">
-					    	<ul class="pager">
-						        {block:PreviousPage}<li class="previous"><a href="{PreviousPage}">{lang:Prev}</a></li>{/block:PreviousPage}				            
-						        {block:NextPage}<li class="next"><a href="{NextPage}">{lang:Next}</a></li>{/block:NextPage}
-							</ul>
-					    </div>
+					<div class="col-xs-12 col-sm-12 col-md-12 well">
+						<ul class="pager">
+							{block:PreviousPage}
+							<li class="previous">
+								<a href="{PreviousPage}">{lang:Prev}</a>
+							</li>
+							{/block:PreviousPage}
+							{block:NextPage}
+							<li class="next">
+								<a href="{NextPage}">{lang:Next}</a>
+							</li>
+							{/block:NextPage}
+						</ul>
+					</div>
 					{/block:Pagination}
-					
-					
+
 					<!-- End Pagination -->
-					
-					
-					
 
 				</div>
 
 				<!--Sidebar Start -->
 
 				<div class="col-xs-12 col-sm-6 col-md-3 sidebar-offcanvas" id="sidebar" role="navigation">
-					
-					
-					
-					
+
 					{block:IfShowAboutMe}
 					<div class="well sidebar-nav">
 						{block:IfShowAvatar}
-							<a href="{PostAuthorURL}" class="thumbnail">
-						      <img src="{PortraitURL-128}" alt="{Title}">
-						    </a>
-						 {/block:IfShowAvatar}
-						 {block:IfShowDesc}  
-						  	<p class="blog-desc">{Description}</p>
-						 {/block:IfShowDesc} 
-					 </div><!--/.well -->
+						<a href="{PostAuthorURL}" class="thumbnail"> <img src="{PortraitURL-128}" alt="{Title}"> </a>
+						{/block:IfShowAvatar}
+						{block:IfShowDesc}
+						<p class="blog-desc">
+							{Description}
+						</p>
+						{/block:IfShowDesc}
+					</div><!--/.well -->
 					{/block:IfShowAboutMe}
-					
-					
+
 					{block:IfShowSocialButtons}
 					<div class="well sidebar-nav">
-						
+
 						<div class="row social-buttons">
 							<a type="button" class="btn btn-default" href="http://{text:TumblrUrl}" target="_blank"><i class="icon-tumblr"></i></a>
 							<a type="button" class="btn btn-default"><i class="icon-twitter"></i></a>
@@ -1030,156 +1008,194 @@
 							<a type="button" class="btn btn-default"><i class="icon-youtube"></i></a>
 							<a type="button" class="btn btn-default"><i class="icon-google-plus"></i></a>
 						</div>
-						
-					</div>	
-					{block:IfShowSocialButtons}
-					
-					
-					
-					{block:IfShowTwitterAndFacebookBadges}
-					
-		<div class="facebook_banner">
-            <div class="facebook_banner_logo">
-                <img src="http://i.imgur.com/pwR5MWy.png" width="60" />
-            </div>
-            <span class="facebook_banner_seguidores"></span>
-            <div class="facebook_followbutton">
-                <div class="fb-follow" data-href="https://www.facebook.com/FrikiLeaksWeb" data-layout="button_count" data-show-faces="false" data-width="450"></div>
-            </div>
-        </div>
-        
-        <div class="twitter_banner">
-            <div class="twitter_banner_logo">
-                <img src="http://i.imgur.com/vWUdUDt.png" width="60" />
-            </div>
-            <span class="twitter_banner_seguidores">123 seguidores</span>
-            <div class="twitter_followbutton">
-                <a href="https://twitter.com/FrikiLeaksWeb" class="twitter-follow-button" data-show-count="true" data-lang="es" data-show-screen-name="false"></a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-            </div>
-        </div>
-					
-					{/block:IfShowTwitterAndFacebookBadges}
-					
-		<div class="well sidebar-nav" style="padding: 13px;">
-		<h4 class="lato center">Anúnciate en FrikiLeaks</h4>
-		
-		    <div id="small_affiliate_banners">
-            
-            <!-- FILA 1 -->
-            
-                <div align="center" class="affiliate_banner_small"><a href="http://www.mundonets.com/" target="_blank"><img src="http://www.mundonets.com/plugins/content/relatedThumbArticles/default.jpg" title="mundonets" alt="mundonets"></a></div>
-                
-                <div align="center" class="affiliate_banner_small"><a href="http://www.paisdelosjuegos.es" alt="juegos gratis online" target="_blank"><img src="http://static.tumblr.com/ovj2qlw/8gAmvi6h8/paisdelosjuegos-banner35.png"></a></div>
-                
-                <div align="center" class="affiliate_banner_small"><a href="http://www.frikileaks.es/publicidad" target="_blank"><img src="http://static.tumblr.com/ovj2qlw/Unpmm4ctl/35x35_banner.png"></a></div>
-                
-                <div align="center" class="affiliate_banner_small"><a href="http://www.frikileaks.es/publicidad" target="_blank"><img src="http://static.tumblr.com/ovj2qlw/Unpmm4ctl/35x35_banner.png"></a></div>
-                
-                <div align="center" class="affiliate_banner_small"><a href="http://www.frikileaks.es/publicidad" target="_blank"><img src="http://static.tumblr.com/ovj2qlw/Unpmm4ctl/35x35_banner.png"></a></div>
-                
-                <div align="center" class="affiliate_banner_small"><a href="http://www.frikileaks.es/publicidad" target="_blank"><img src="http://static.tumblr.com/ovj2qlw/Unpmm4ctl/35x35_banner.png"></a></div>
-                
-                <!-- FILA 2 -->
-                
-                <div align="center" class="affiliate_banner_small"><a href="http://www.frikileaks.es/publicidad" target="_blank"><img src="http://static.tumblr.com/ovj2qlw/Unpmm4ctl/35x35_banner.png"></a></div>
-                
-                <div align="center" class="affiliate_banner_small"><a href="http://www.frikileaks.es/publicidad" target="_blank"><img src="http://static.tumblr.com/ovj2qlw/Unpmm4ctl/35x35_banner.png"></a></div>
-                
-                <div align="center" class="affiliate_banner_small"><a href="http://www.frikileaks.es/publicidad" target="_blank"><img src="http://static.tumblr.com/ovj2qlw/Unpmm4ctl/35x35_banner.png"></a></div>
-                
-                <div align="center" class="affiliate_banner_small"><a href="http://www.frikileaks.es/publicidad" target="_blank"><img src="http://static.tumblr.com/ovj2qlw/Unpmm4ctl/35x35_banner.png"></a></div>
-                
-                <div align="center" class="affiliate_banner_small"><a href="http://www.frikileaks.es/publicidad" target="_blank"><img src="http://static.tumblr.com/ovj2qlw/Unpmm4ctl/35x35_banner.png"></a></div>
-                
-                <div align="center" class="affiliate_banner_small"><a href="http://www.frikileaks.es/publicidad" target="_blank"><img src="http://static.tumblr.com/ovj2qlw/Unpmm4ctl/35x35_banner.png"></a></div>
- 
-            </div>
-            
-            
-            <div id="affiliate_banners">
 
-                <div align="center" class="affiliate_banner"><a href="http://www.despedidas-sanxenxo.com/" target="_blank"><img width="230" height="60" src="http://static.tumblr.com/ovj2qlw/g2uml5mxj/result1.jpg"></a></div>
-                
-                <div align="center" class="affiliate_banner"><a href="http://www.despedidasvigo.com/" target="_blank"><img width="230" height="60" src="http://static.tumblr.com/ovj2qlw/mPOml5n05/result2.jpg"></a></div>
-                
-                <div align="center" class="affiliate_banner"><a href="http://www.animaciongalicia.com/" target="_blank"><img width="230" height="60" src="http://static.tumblr.com/ovj2qlw/SJFml5n0o/result3.jpg"></a></div>
-                
-                <div align="center" class="affiliate_banner"><a href="http://www.frikileaks.es/publicidad" target="_blank"><img alt="Aquí podría estar tu banner... ¡Informate clicando!" src="http://static.tumblr.com/ovj2qlw/3NHmm4c79/230x60_banner.png"></a></div>
-                
-            <div class="anuncios_texto" >
-                <p class="center lato"> Anuncios de texto</p>
-                <ul>
-                    <li>
-                        <a href="http://comousar.info/como-usar-whatsapp-paso-a-paso/" style="text-decoration: none;">wasap</a>
-                    </li>
-                </ul>
-                
-            </div>
-                
-        </div>
-            
-            
-		
-	</div>
-					
-					
-		
-					
+					</div>
+					{block:IfShowSocialButtons}
+
+					{block:IfShowTwitterAndFacebookBadges}
+
+					<div class="facebook_banner">
+						<div class="facebook_banner_logo">
+							<img src="http://i.imgur.com/pwR5MWy.png" width="60" />
+						</div>
+						<span class="facebook_banner_seguidores"></span>
+						<div class="facebook_followbutton">
+							<div class="fb-follow" data-href="https://www.facebook.com/FrikiLeaksWeb" data-layout="button_count" data-show-faces="false" data-width="450"></div>
+						</div>
+					</div>
+
+					<div class="twitter_banner">
+						<div class="twitter_banner_logo">
+							<img src="http://i.imgur.com/vWUdUDt.png" width="60" />
+						</div>
+						<span class="twitter_banner_seguidores">123 seguidores</span>
+						<div class="twitter_followbutton">
+							<a href="https://twitter.com/FrikiLeaksWeb" class="twitter-follow-button" data-show-count="true" data-lang="es" data-show-screen-name="false"></a>
+							<script>
+								! function(d, s, id) {
+									var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
+									if (!d.getElementById(id)) {
+										js = d.createElement(s);
+										js.id = id;
+										js.src = p + '://platform.twitter.com/widgets.js';
+										fjs.parentNode.insertBefore(js, fjs);
+									}
+								}(document, 'script', 'twitter-wjs');
+							</script>
+						</div>
+					</div>
+
+					{/block:IfShowTwitterAndFacebookBadges}
+
+					<div class="well sidebar-nav" style="padding: 13px;">
+						<h4 class="lato center">Anúnciate en FrikiLeaks</h4>
+
+						<div id="small_affiliate_banners">
+
+							<!-- FILA 1 -->
+
+							<div align="center" class="affiliate_banner_small">
+								<a href="http://www.mundonets.com/" target="_blank"><img src="http://www.mundonets.com/plugins/content/relatedThumbArticles/default.jpg" title="mundonets" alt="mundonets"></a>
+							</div>
+
+							<div align="center" class="affiliate_banner_small">
+								<a href="http://www.paisdelosjuegos.es" alt="juegos gratis online" target="_blank"><img src="http://static.tumblr.com/ovj2qlw/8gAmvi6h8/paisdelosjuegos-banner35.png"></a>
+							</div>
+
+							<div align="center" class="affiliate_banner_small">
+								<a href="http://www.frikileaks.es/publicidad" target="_blank"><img src="http://static.tumblr.com/ovj2qlw/Unpmm4ctl/35x35_banner.png"></a>
+							</div>
+
+							<div align="center" class="affiliate_banner_small">
+								<a href="http://www.frikileaks.es/publicidad" target="_blank"><img src="http://static.tumblr.com/ovj2qlw/Unpmm4ctl/35x35_banner.png"></a>
+							</div>
+
+							<div align="center" class="affiliate_banner_small">
+								<a href="http://www.frikileaks.es/publicidad" target="_blank"><img src="http://static.tumblr.com/ovj2qlw/Unpmm4ctl/35x35_banner.png"></a>
+							</div>
+
+							<div align="center" class="affiliate_banner_small">
+								<a href="http://www.frikileaks.es/publicidad" target="_blank"><img src="http://static.tumblr.com/ovj2qlw/Unpmm4ctl/35x35_banner.png"></a>
+							</div>
+
+							<!-- FILA 2 -->
+
+							<div align="center" class="affiliate_banner_small">
+								<a href="http://www.frikileaks.es/publicidad" target="_blank"><img src="http://static.tumblr.com/ovj2qlw/Unpmm4ctl/35x35_banner.png"></a>
+							</div>
+
+							<div align="center" class="affiliate_banner_small">
+								<a href="http://www.frikileaks.es/publicidad" target="_blank"><img src="http://static.tumblr.com/ovj2qlw/Unpmm4ctl/35x35_banner.png"></a>
+							</div>
+
+							<div align="center" class="affiliate_banner_small">
+								<a href="http://www.frikileaks.es/publicidad" target="_blank"><img src="http://static.tumblr.com/ovj2qlw/Unpmm4ctl/35x35_banner.png"></a>
+							</div>
+
+							<div align="center" class="affiliate_banner_small">
+								<a href="http://www.frikileaks.es/publicidad" target="_blank"><img src="http://static.tumblr.com/ovj2qlw/Unpmm4ctl/35x35_banner.png"></a>
+							</div>
+
+							<div align="center" class="affiliate_banner_small">
+								<a href="http://www.frikileaks.es/publicidad" target="_blank"><img src="http://static.tumblr.com/ovj2qlw/Unpmm4ctl/35x35_banner.png"></a>
+							</div>
+
+							<div align="center" class="affiliate_banner_small">
+								<a href="http://www.frikileaks.es/publicidad" target="_blank"><img src="http://static.tumblr.com/ovj2qlw/Unpmm4ctl/35x35_banner.png"></a>
+							</div>
+
+						</div>
+
+						<div id="affiliate_banners">
+
+							<div align="center" class="affiliate_banner">
+								<a href="http://www.despedidas-sanxenxo.com/" target="_blank"><img width="230" height="60" src="http://static.tumblr.com/ovj2qlw/g2uml5mxj/result1.jpg"></a>
+							</div>
+
+							<div align="center" class="affiliate_banner">
+								<a href="http://www.despedidasvigo.com/" target="_blank"><img width="230" height="60" src="http://static.tumblr.com/ovj2qlw/mPOml5n05/result2.jpg"></a>
+							</div>
+
+							<div align="center" class="affiliate_banner">
+								<a href="http://www.animaciongalicia.com/" target="_blank"><img width="230" height="60" src="http://static.tumblr.com/ovj2qlw/SJFml5n0o/result3.jpg"></a>
+							</div>
+
+							<div align="center" class="affiliate_banner">
+								<a href="http://www.frikileaks.es/publicidad" target="_blank"><img alt="Aquí podría estar tu banner... ¡Informate clicando!" src="http://static.tumblr.com/ovj2qlw/3NHmm4c79/230x60_banner.png"></a>
+							</div>
+
+							<div class="anuncios_texto" >
+								<p class="center lato">
+									Anuncios de texto
+								</p>
+								<ul>
+									<li>
+										<a href="http://comousar.info/como-usar-whatsapp-paso-a-paso/" style="text-decoration: none;">wasap</a>
+									</li>
+								</ul>
+
+							</div>
+
+						</div>
+
+					</div>
+
 				</div><!--/span-->
 
 				<!--Sidebar End -->
-		
-				
-				
 
 			</div><!--/row-->
 
 		</div><!--/.container-->
-		
-		
-		
-<div id="footer">
-		
-    <div class="hits lato center">    
-		    
-        <!-- Start of StatCounter Code for Tumblr -->
-        <script type="text/javascript">
-        var sc_project=7201415; 
-        var sc_invisible=0; 
-        var sc_security="98133b86"; 
-        var sc_text=2; 
-        </script>
-        <script type="text/javascript" src="http://www.statcounter.com/counter/counter.js"></script>
-        <noscript><div class="statcounter"><a title="tumblr visit counter" href="http://statcounter.com/tumblr/" target="_blank"><img class="statcounter" src="http://c.statcounter.com/7201415/0/98133b86/0/" alt="tumblr visit counter"></a></div></noscript>
-        <!-- End of StatCounter Code for Tumblr -->
-        <a href="http://statcounter.com/project/standard/stats.php?project_id=6950849&guest=1">Visitas Únicas</a>
-        /
-        <!-- Start of StatCounter Code for Tumblr -->
-        <script type="text/javascript">
-        var sc_project=6950849; 
-        var sc_invisible=0; 
-        var sc_security="d2d74860"; 
-        var sc_text=2; 
-        </script>
-        <script type="text/javascript"
-        src="http://www.statcounter.com/counter/counter.js"></script>
-        <noscript><div class="statcounter"><a title="counter for
-        tumblr" href="http://statcounter.com/tumblr/"
-        target="_blank"><img class="statcounter"
-        src="http://c.statcounter.com/6950849/0/d2d74860/0/"
-        alt="counter for tumblr"></a></div></noscript>
-        <!-- End of StatCounter Code for Tumblr -->
-        <a href="http://statcounter.com/project/standard/stats.php?project_id=6950849&guest=1">Cargas de Página</a>
-        </p>
-        </p>
-        </div>
-    </div>	
-	
-	<div class="credits lato center">
-	    FrikiLeaks v3 Theme (beta). Proudly made by <a href="http://www.ijos.es">@iJos</a>
-	</div>	
-		
+
+		<div id="footer">
+
+			<div class="hits lato center">
+
+				<!-- Start of StatCounter Code for Tumblr -->
+				<script type="text/javascript">
+var sc_project=7201415;
+var sc_invisible=0;
+var sc_security="98133b86";
+var sc_text=2;
+				</script>
+				<script type="text/javascript" src="http://www.statcounter.com/counter/counter.js"></script>
+				<noscript>
+					<div class="statcounter">
+						<a title="tumblr visit counter" href="http://statcounter.com/tumblr/" target="_blank"><img class="statcounter" src="http://c.statcounter.com/7201415/0/98133b86/0/" alt="tumblr visit counter"></a>
+					</div>
+				</noscript>
+				<!-- End of StatCounter Code for Tumblr -->
+				<a href="http://statcounter.com/project/standard/stats.php?project_id=6950849&guest=1">Visitas Únicas</a>
+				/
+				<!-- Start of StatCounter Code for Tumblr -->
+				<script type="text/javascript">
+					var sc_project=6950849;
+					var sc_invisible=0;
+					var sc_security="d2d74860";
+					var sc_text=2;
+				</script>
+				<script type="text/javascript"
+				src="http://www.statcounter.com/counter/counter.js"></script>
+				<noscript>
+					<div class="statcounter">
+						<a title="counter for
+						tumblr" href="http://statcounter.com/tumblr/"
+						target="_blank"><img class="statcounter"
+						src="http://c.statcounter.com/6950849/0/d2d74860/0/"
+						alt="counter for tumblr"></a>
+					</div>
+				</noscript>
+				<!-- End of StatCounter Code for Tumblr -->
+				<a href="http://statcounter.com/project/standard/stats.php?project_id=6950849&guest=1">Cargas de Página</a>
+				</p>
+				</p>
+			</div>
+		</div>
+
+		<div class="credits lato center">
+			FrikiLeaks v3 Theme (beta). Proudly made by <a href="http://www.ijos.es">@iJos</a>
+		</div>
 
 	</body>
 </html>
