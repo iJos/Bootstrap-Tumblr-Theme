@@ -1,0 +1,337 @@
+/* GOOGLE FONTS */
+@import url(http://fonts.googleapis.com/css?family=Lato);
+
+.lato{
+	font-family: 'Lato', sans-serif;
+}
+
+
+
+
+
+body{
+	padding-top: 70px;
+	background: #3e3e3e 
+				url("http://static.tumblr.com/3driglx/RzWmbolq7/background.png")
+				fixed; 
+}
+
+/* Border radius removement */
+
+.well, .badge, .label, .btn, .pager li>a{
+	border-radius: 0px;
+}
+
+.center{
+	text-align: center;
+}
+
+.well{
+	background-color: #FFF;
+	border: 1px solid #101010;
+}
+
+.tumblr_theme_marker_blogdescription{
+	color: #CCC;
+}
+
+.break{
+	border-top: 2px solid #eee;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.date{
+	color: #999;
+	font-size: 12px;
+	margin-bottom: 10px;
+	float: left;
+}
+
+.notes{
+	color: #999;
+	font-size: 12px;
+	float: right;
+}
+
+.pager {
+	margin: 0 !important;
+}
+
+.social-buttons{
+	text-align: center;
+}
+
+/* TEXT POST */
+.post-body p{
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+
+/* PHOTO POST */
+.photo-post{
+	text-align: center;
+}
+
+.photo-post img{
+	display: inline !important;
+}
+.post-caption{
+	margin-top: 10px;
+}
+.post-caption p a{
+	color: #999;
+}
+
+blockquote {
+	border-left: 2px solid #eee;
+	text-align: center;
+}
+
+blockquote img{
+	max-width: 100%;
+}
+
+blockquote p{
+	font-size: 15px;
+}
+
+blockquote:before {
+    float: left;
+    margin-right: 10px;
+}
+
+.collapseButton{
+	margin-top: 10px;
+}
+
+.post-footer .tags a{
+	text-decoration: none;
+}
+
+ul.tags{
+	margin-left: -40px;
+	margin-top: 10px;
+}
+
+.HighRes a{
+	text-decoration: none;
+}
+
+/* PHOTOSET POST */
+.photoset-post{
+	text-align: center;
+}
+
+.photoset-post img{
+	display: inline !important;
+	margin: 2px;
+}
+
+
+
+/* QUOTE POST */
+
+.quote h3{
+	font-size: 32px;
+}
+.quote h3:after{
+	content: ' "';
+}
+.quote h3:before{
+	content: '" ';
+}
+.quote-source a{
+	text-decoration: none;
+}
+
+.source{
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+/* LINK POST */
+.link a{
+	font-size: 32px;
+	text-decoration: none;
+}
+.link-desc{
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+/* CHAT POST */
+.chat-post h3{
+	font-size: 32px;
+}
+.chat-post .lines ul{
+	list-style: none;	
+}
+
+.chat-post .lines ul li.odd {
+   color: #000;
+}
+.chat-post .lines ul li.odd:before {
+   content: "+ "
+}
+.chat-post .lines ul li.even {
+   color: #999;
+}
+.chat-post .lines ul li.even:before {
+   content: "- "
+}
+
+
+/* AUDIO POST */
+
+.player{
+	text-align: center;
+}
+.play-count{
+	text-align: center;
+}
+
+/* VIDEO POST */
+.post-video .video{
+	text-align: center;
+}
+.post-video .video iframe{
+	display: inline !important;
+	max-width: 100%;
+}
+
+/* ANSWER POST */
+.question-answer{
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+span.question{
+	font-size: 25px;
+	color: #999;
+}
+span.answer p, span.answerer p{
+	padding-left: 60px;
+	padding-top: 10px;
+	font-weight: bold;
+}
+
+
+/* FACEBOOK COMMENTS BOX OVERRIDE */
+
+.fb-comments, .fb-comments span, .fb-comments iframe { 
+	width: 100% !important; 
+	margin-top: 10px;
+}
+
+
+/* CUSTOM BUTTONS */
+
+
+.btn-facebook, .btn-facebook:hover {
+  color: #ffffff;
+  background-color: #3B5998;
+}
+
+.btn-share, .btn-share:hover{
+	color: #ffffff;
+	background-color: #B5AA36;
+}
+
+
+/* ADDTHIS OVERRIDE */
+
+.addthis_toolbox{
+	margin: 10px;
+}
+
+
+/* SOCIALS */
+
+.facebook_banner{
+    height: 60px;
+    width: 100%;
+    background-color: #3B5998;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+}
+
+.facebook_banner_logo{
+    height: 100%;  
+    float: left;
+}
+
+.facebook_banner_seguidores{
+
+    padding-top: 3px;
+    padding-left: 12px;
+    color: #FFF;
+    font-size: 25px;
+}
+
+.facebook_followbutton{
+    padding-top: 0px;
+    padding-left: 75px;
+}
+
+
+.twitter_banner{
+    height: 60px;
+    width: 100%;
+    background-color: #00aced;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+}
+
+.twitter_banner_logo{
+    height: 100%;  
+    float: left;
+    padding-left: 8px;
+}
+
+.twitter_banner_seguidores{
+
+    padding-top: 3px;
+    padding-left: 5px;
+    color: #FFF;
+    font-size: 25px;
+}
+
+.twitter_followbutton{
+    padding-top: 0px;
+    padding-left: 75px;
+}
+
+/* Affiliate Banners */
+
+.affiliate_banner {
+    margin: 10px;
+}
+
+#small_affiliate_banners{
+    height: 75px;
+}
+
+.affiliate_banner_small{
+    float: left;
+    margin-right: 4px;
+    margin-bottom: 4px;   
+}
+.affiliate_banner_small img{
+    border-radius: 3px;  
+    height: 35px;
+    width: 35px;
+}
+
+.anuncios_texto ul{
+	list-style: none;
+}
+
+
+.hits, .hits a, .credits{
+	color: #777;
+	font-size: 12px;
+}
